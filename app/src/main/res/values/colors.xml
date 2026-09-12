@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- ================= BASIC ================= -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- ================= BRAND / PRIMARY ================= -->
+    <color name="colorPrimary">#57CC99</color>
+    <color name="colorPrimaryDark">#45B887</color>
+    <color name="colorPrimaryLight">#8EE0BE</color>
+    <color name="accent">#57CC99</color>
+
+    <!-- ================= BACKGROUNDS ================= -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F4F9F7</color>
+    <color name="card_bg">#FAFAFA</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="itemBackground">#F2F6F5</color>
+
+    <!-- ================= TEXT ================= -->
+    <color name="textPrimary">#1E1E1E</color>
+    <color name="textSecondary">#6A6A6A</color>
+    <color name="title_black">#212121</color>
+    <color name="text_gray">#757575</color>
+    <color name="hintColor">#9E9E9E</color>
+    <color name="itemTextColor">#2B2B2B</color>
+
+    <!-- ================= BUTTONS ================= -->
+    <color name="buttonNormal">#57CC99</color>
+    <color name="buttonPressed">#45B887</color>
+    <color name="buttonDisabled">#BEE8D6</color>
+
+    <!-- ================= NAVIGATION ================= -->
+    <color name="statusBarColor">#57CC99</color>
+    <color name="navigationBarColor">#E6F3EE</color>
+    <color name="bottom_active">#57CC99</color>
+    <color name="bottom_inactive">#9E9E9E</color>
+
+    <!-- ================= RIPPLE / EFFECT ================= -->
+    <color name="rippleColor">#2257CC99</color>
+    <color name="itemRippleColor">#22000000</color>
+    <color name="overlay_dark">#66000000</color>
+
+    <!-- ================= ICON / STATE ================= -->
+    <color name="error_red">#E53935</color>
+    <color name="retry_gray">#616161</color>
+
+
 </resources>

@@ -2,23 +2,101 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
+    android:background="#F5FBF9"
     android:gravity="center">
 
-    <Button
-        android:id="@+id/btnSingle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="تک نفره"
-        android:textSize="22sp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_input_active"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnMulti"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnSingle"
-        android:text="چند نفره"
-        android:textSize="22sp" />
+        <TextView
+            android:id="@+id/textt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSingle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_input_active"
+            android:gravity="center"
+            android:text="SCORE : 00"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnSingle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_input_active"
+            android:text="خوشتیپ"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnMulti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSingle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_input_active"
+            android:text="دژمن"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/bist6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMulti"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/bg_input_active"
+            android:text="بیسِ شیش"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/danosh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bist6"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_input_active"
+            android:text="طلب دانوش"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/golzar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/danosh"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_input_active"
+            android:text="گلزار"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/moshali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/golzar"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_input_active"
+            android:text="موش علی"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>
